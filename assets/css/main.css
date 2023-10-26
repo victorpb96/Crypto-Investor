@@ -394,7 +394,19 @@ body.light-theme{
     width: .5rem;
     height: .5rem;
     background-color: var(--light-color-alt);
-    transform: rotate(45deg);
+}
+
+.crypto-security-title{
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    right: 8;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: -100px;
+    margin-right: 250px;
 }
 
 .title{
@@ -546,6 +558,10 @@ body.light-theme{
     transform: translateX(.5rem);
 }
 
+.email-us-p{
+    text-align: center;
+}
+
 /* Popular tags */
 .popular-tags-container{
     gap: var(--gap);
@@ -680,6 +696,14 @@ body.light-theme{
     display: flex;
     flex-direction: column;
     gap: var(--gap);
+}
+ Waiting to get feed back from other devs to fix photo position 
+.DTC-img {
+    position: relative;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 .quote{
